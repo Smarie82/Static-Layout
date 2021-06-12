@@ -1,3 +1,178 @@
-.flex-contianer {
-    display: flex;
+.container{
+   display: flexbox;
+  
 }
+
+.navbar {
+    overflow: hidden;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-decoration: none;
+    transition: ease-in-out;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    float: right;
+    text-align: right;
+    padding: 1px 34px;
+    text-decoration: none;
+    margin-top: 28px;
+}
+
+.navbutton {
+    width: 5%;
+    height: 25px;
+    margin-top: 28px;
+    margin-right: 28px;
+    border: 1px solid white;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    background-color: transparent;
+    cursor: pointer;
+    display: block;
+}
+
+.logo {
+    vertical-align: top;
+    margin-top: 28px;
+    width: 200px;
+    margin-left: 0;
+    float: left;
+    text-align: left;
+    padding-left: 25px;
+}
+
+.background{
+    position: relative;
+    background-image: url(../StaticLayoutAssets/gradient-violet-bg.jpg);
+    background-size: cover;
+    background-clip: border-box;
+    height: auto;
+    min-height: 700px;
+    width: 100%;
+    background-position: 50% 50%;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    background-color: #000;
+}
+
+.top{
+    margin-top: 9px;
+    margin-left: 9px;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.wrapper{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: center;
+    height: auto;
+    width: auto;
+    padding-right: 30%;
+    padding-left: 30%;
+   
+}    
+
+.mainbutton{
+    width: 215px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px 10px;
+    border-color: rgba(254, 144, 0, 0);
+    border-radius: 3px;
+    background-color: #fe9000;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.backgroundteal {
+    background-image: url(../StaticLayoutAssets/green-bg.jpg);
+    background-size: cover;
+    background-clip: border-box;
+    height: auto;
+    min-height: 200px;
+    width: 100%;
+    background-position: 50% 50%;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    background-color: #000;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 48px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 22px;
+}
+
+h3{
+    color: rgb(66, 60, 60);
+    font-family: 'Roboto', sans-serif;
+    position: center;
+    text-align: center;
+    font-size: 25px;
+    font-style: bold;
+}
+
+h4{
+    font-family:'Roboto', sans-serif;
+    color: rgb(66, 60, 60);
+    position: center;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.containerbottom{
+    padding-top: 19px;
+    padding-bottom: 19px;
+    display: grid;
+    width: auto;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.wrapperbottom{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    text-align: center;
+    height: auto;
+    width: auto;
+    padding-right: 25%;
+    padding-left: 25%;
+   
+}    
