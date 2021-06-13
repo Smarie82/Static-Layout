@@ -55,7 +55,7 @@
 
 .background{
     position: relative;
-    background-image: url(../Kastapp/StaticLayoutAssets/gradient-violet-bg.jpg);
+    background-image: url(./StaticLayoutAssets/gradient-violet-bg.jpg);
     background-size: cover;
     background-clip: border-box;
     height: auto;
@@ -113,7 +113,7 @@
 
 
 .backgroundteal {
-    background-image: url(../Kastapp/StaticLayoutAssets/green-bg.jpg);
+    background-image: url(./StaticLayoutAssets/green-bg.jpg);
     background-size: cover;
     background-clip: border-box;
     height: auto;
