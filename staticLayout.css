@@ -1,6 +1,15 @@
-.container{
-   display: flexbox;
-  
+.background{
+    /* position: relative; */
+    background-image: url("./StaticLayoutAssets/gradient-violet-bg.jpg");
+    background-size: cover;
+    /* background-clip: border-box; */
+    /* height: auto; */
+    min-height: 700px;
+    width: 100%;
+    background-position: 50% 50%;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    background-color: #000;
 }
 
 .navbar {
@@ -25,22 +34,24 @@
     margin-top: 28px;
 }
 
-.navbutton {
-    width: 5%;
-    height: 25px;
+.btn {
+    white-space: nowrap;
+    width: 30px;
+    height: 20px;
     margin-top: 28px;
     margin-right: 28px;
     border: 1px solid white;
     border-radius: 3px;
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     text-transform: uppercase;
     text-align: center;
-    text-decoration: none;
-    float: right;
+    /* text-decoration: none; */
+    /* float: right; */
     background-color: transparent;
     cursor: pointer;
-    display: block;
+    display: flex;
+    
 }
 
 .logo {
@@ -53,26 +64,13 @@
     padding-left: 25px;
 }
 
-.background{
-    position: relative;
-    background-image: url("./StaticLayoutAssets/gradient-violet-bg.jpg");
-    background-size: cover;
-    background-clip: border-box;
-    height: auto;
-    min-height: 700px;
-    width: 100%;
-    background-position: 50% 50%;
-    padding-top: 80px;
-    padding-bottom: 60px;
-    background-color: #000;
-}
 
-.top{
+/* .top{
     margin-top: 9px;
     margin-left: 9px;
-}
+} */
 
-.img {
+#img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -91,7 +89,7 @@
 }    
 
 .mainbutton{
-    width: 215px;
+    width: 200px;
     border-style: solid;
     border-width: 1px;
     padding: 10px 10px;
@@ -101,18 +99,24 @@
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    /* align-content: center; */
     text-transform: uppercase;
     cursor: pointer;
     text-decoration: none;
     color: white;
     display: flex;
-    position: relative;
+    /* position: relative; */
     margin-right: auto;
     margin-left: auto;
 }
 
+#open {
+    display: block;
+    margin: auto;
+    vertical-align: center;
+}
 
-.backgroundteal {
+#backgroundteal {
     background-image: url("./StaticLayoutAssets/green-bg.jpg");
     background-size: cover;
     background-clip: border-box;
@@ -123,6 +127,11 @@
     padding-top: 80px;
     padding-bottom: 60px;
     background-color: #000;
+}
+
+body {
+    display: block;
+    margin: 0;
 }
 
 h1{
@@ -166,7 +175,7 @@ h4{
     
 }
 
-.wrapperbottom{
+.wrapperBottom{
     padding-top: 90px;
     padding-bottom: 90px;
     text-align: center;
